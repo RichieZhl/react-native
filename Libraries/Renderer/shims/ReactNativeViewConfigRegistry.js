@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2015-present, Facebook, Inc.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -8,6 +8,8 @@
  * @flow strict-local
  */
 
+/* eslint-disable react-internal/warning-and-invariant-args */
+
 'use strict';
 
 import type {
@@ -15,22 +17,20 @@ import type {
   ViewConfigGetter,
 } from './ReactNativeTypes';
 
-const invariant = require('fbjs/lib/invariant');
+const invariant = require('invariant');
 
 // Event configs
-const customBubblingEventTypes = {};
-const customDirectEventTypes = {};
-const eventTypes = {};
+const customBubblingEventTypes: $TEMPORARY$object<{||}> = {};
+const customDirectEventTypes: $TEMPORARY$object<{||}> = {};
 
 exports.customBubblingEventTypes = customBubblingEventTypes;
 exports.customDirectEventTypes = customDirectEventTypes;
-exports.eventTypes = eventTypes;
 
 const viewConfigCallbacks = new Map();
 const viewConfigs = new Map();
 
 function processEventTypes(
-  viewConfig: ReactNativeBaseComponentViewConfig,
+  viewConfig: ReactNativeBaseComponentViewConfig<>,
 ): void {
   const {bubblingEventTypes, directEventTypes} = viewConfig;
 
@@ -49,7 +49,7 @@ function processEventTypes(
   if (bubblingEventTypes != null) {
     for (const topLevelType in bubblingEventTypes) {
       if (customBubblingEventTypes[topLevelType] == null) {
-        eventTypes[topLevelType] = customBubblingEventTypes[topLevelType] =
+        customBubblingEventTypes[topLevelType] =
           bubblingEventTypes[topLevelType];
       }
     }
@@ -58,8 +58,7 @@ function processEventTypes(
   if (directEventTypes != null) {
     for (const topLevelType in directEventTypes) {
       if (customDirectEventTypes[topLevelType] == null) {
-        eventTypes[topLevelType] = customDirectEventTypes[topLevelType] =
-          directEventTypes[topLevelType];
+        customDirectEventTypes[topLevelType] = directEventTypes[topLevelType];
       }
     }
   }
@@ -69,7 +68,6 @@ function processEventTypes(
  * Registers a native view/component by name.
  * A callback is provided to load the view config from UIManager.
  * The callback is deferred until the view is actually rendered.
- * This is done to avoid causing Prepack deopts.
  */
 exports.register = function(name: string, callback: ViewConfigGetter): string {
   invariant(
@@ -86,15 +84,20 @@ exports.register = function(name: string, callback: ViewConfigGetter): string {
  * If this is the first time the view has been used,
  * This configuration will be lazy-loaded from UIManager.
  */
-exports.get = function(name: string): ReactNativeBaseComponentViewConfig {
+exports.get = function(name: string): ReactNativeBaseComponentViewConfig<> {
   let viewConfig;
   if (!viewConfigs.has(name)) {
     const callback = viewConfigCallbacks.get(name);
-    invariant(
-      typeof callback === 'function',
-      'View config not found for name %s',
-      name,
-    );
+    if (typeof callback !== 'function') {
+      invariant(
+        false,
+        'View config not found for name %s.%s',
+        name,
+        typeof name[0] === 'string' && /[a-z]/.test(name[0])
+          ? ' Make sure to start component names with a capital letter.'
+          : '',
+      );
+    }
     viewConfigCallbacks.set(name, null);
     viewConfig = callback();
     processEventTypes(viewConfig);

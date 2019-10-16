@@ -1,12 +1,12 @@
-// Copyright (c) 2004-present, Facebook, Inc.
+// Copyright (c) Facebook, Inc. and its affiliates.
 
 // This source code is licensed under the MIT license found in the
 // LICENSE file in the root directory of this source tree.
 
 #pragma once
 
-#include <cxxreact/CxxModule.h>
-#include <cxxreact/NativeModule.h>
+#include "CxxModule.h"
+#include "NativeModule.h"
 
 #ifndef RN_EXPORT
 #define RN_EXPORT __attribute__((visibility("default")))

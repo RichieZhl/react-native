@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2015-present, Facebook, Inc.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -10,8 +10,8 @@
 
 'use strict';
 
-const Image = require('Image');
+const Image = require('../../../Image/Image');
 
-const createAnimatedComponent = require('createAnimatedComponent');
+const createAnimatedComponent = require('../createAnimatedComponent');
 
-module.exports = createAnimatedComponent(Image);
+module.exports = (createAnimatedComponent(Image): $FlowFixMe);
