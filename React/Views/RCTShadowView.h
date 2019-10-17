@@ -7,9 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTComponent.h>
-#import <React/RCTLayout.h>
-#import <React/RCTRootView.h>
+#import "RCTComponent.h"
+#import "RCTLayout.h"
+#import "RCTRootView.h"
 #import <yoga/Yoga.h>
 
 @class RCTRootShadowView;

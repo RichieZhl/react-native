@@ -3,12 +3,12 @@
 // This source code is licensed under the MIT license found in the
 // LICENSE file in the root directory of this source tree.
 
-#include "jsireact/JSIExecutor.h"
+#include "JSIExecutor.h"
 
-#include <cxxreact/JSBigString.h>
-#include <cxxreact/ModuleRegistry.h>
-#include <cxxreact/ReactMarker.h>
-#include <cxxreact/SystraceSection.h>
+#include "JSBigString.h"
+#include "ModuleRegistry.h"
+#include "ReactMarker.h"
+#include "SystraceSection.h"
 #include <folly/Conv.h>
 #include <folly/json.h>
 #include <glog/logging.h>

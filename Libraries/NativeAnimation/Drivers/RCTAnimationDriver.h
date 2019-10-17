@@ -8,7 +8,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <Foundation/Foundation.h>
 
-#import <React/RCTBridgeModule.h>
+#import "RCTBridgeModule.h"
 
 static CGFloat RCTSingleFrameInterval = (CGFloat)(1.0 / 60.0);
 

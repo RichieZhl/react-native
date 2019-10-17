@@ -7,11 +7,11 @@
 
 #import "RCTCxxMethod.h"
 
-#import <React/RCTBridge+Private.h>
-#import <React/RCTBridge.h>
-#import <React/RCTConvert.h>
-#import <React/RCTFollyConvert.h>
-#import <cxxreact/JsArgumentHelpers.h>
+#import "RCTBridge+Private.h"
+#import "RCTBridge.h"
+#import "RCTConvert.h"
+#import "RCTFollyConvert.h"
+#import "JsArgumentHelpers.h"
 #import <folly/Memory.h>
 
 #import "RCTCxxUtils.h"

@@ -5,15 +5,15 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTPropsAnimatedNode.h>
+#import "RCTPropsAnimatedNode.h"
 
-#import <React/RCTLog.h>
-#import <React/RCTSurfacePresenterStub.h>
-#import <React/RCTUIManager.h>
+#import "RCTLog.h"
+#import "RCTSurfacePresenterStub.h"
+#import "RCTUIManager.h"
 
-#import <React/RCTAnimationUtils.h>
-#import <React/RCTStyleAnimatedNode.h>
-#import <React/RCTValueAnimatedNode.h>
+#import "RCTAnimationUtils.h"
+#import "RCTStyleAnimatedNode.h"
+#import "RCTValueAnimatedNode.h"
 
 
 

@@ -13,7 +13,7 @@
 #include <folly/Optional.h>
 #include <jsi/jsi.h>
 
-#include <ReactCommon/JSCallInvoker.h>
+#include "JSCallInvoker.h"
 
 using namespace facebook;
 

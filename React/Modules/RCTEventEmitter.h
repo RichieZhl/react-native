@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTBridge.h>
+#import "RCTBridge.h"
 
 /**
  * RCTEventEmitter is an abstract base class to be used for modules that emit

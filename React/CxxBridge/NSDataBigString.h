@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#include <cxxreact/JSBigString.h>
+#include "JSBigString.h"
 
 namespace facebook {
 namespace react {

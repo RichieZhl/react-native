@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <React/RCTConvert.h>
+#import "RCTConvert.h"
 
 typedef UIFont *(^RCTFontHandler)(CGFloat fontSize, NSString *fontWeightDescription);
 

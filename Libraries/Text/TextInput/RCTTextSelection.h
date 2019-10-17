@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTConvert.h>
+#import "RCTConvert.h"
 
 /**
  * Object containing information about a TextInput's selection.

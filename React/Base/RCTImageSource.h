@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <React/RCTConvert.h>
+#import "RCTConvert.h"
 
 /**
  * Object containing an image URL and associated metadata.

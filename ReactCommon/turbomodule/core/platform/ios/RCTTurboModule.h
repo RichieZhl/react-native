@@ -9,12 +9,12 @@
 
 #import <Foundation/Foundation.h>
 
-#import <React/RCTBridge.h>
-#import <React/RCTBridgeModule.h>
-#import <React/RCTModuleMethod.h>
-#import <ReactCommon/JSCallInvoker.h>
-#import <ReactCommon/TurboModule.h>
-#import <cxxreact/MessageQueueThread.h>
+#import "RCTBridge.h"
+#import "RCTBridgeModule.h"
+#import "RCTModuleMethod.h"
+#import "JSCallInvoker.h"
+#import "TurboModule.h"
+#import "MessageQueueThread.h"
 #import <string>
 #import <unordered_map>
 

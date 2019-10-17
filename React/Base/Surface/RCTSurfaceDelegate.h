@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTSurfaceStage.h>
+#import "RCTSurfaceStage.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

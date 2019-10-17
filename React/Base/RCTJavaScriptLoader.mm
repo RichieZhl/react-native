@@ -9,7 +9,7 @@
 
 #import <sys/stat.h>
 
-#import <cxxreact/JSBundleType.h>
+#import "JSBundleType.h"
 
 #import "RCTBridge.h"
 #import "RCTConvert.h"

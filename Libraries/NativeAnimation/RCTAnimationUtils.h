@@ -8,7 +8,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <Foundation/Foundation.h>
 
-#import <React/RCTDefines.h>
+#import "RCTDefines.h"
 
 static NSString *const EXTRAPOLATE_TYPE_IDENTITY = @"identity";
 static NSString *const EXTRAPOLATE_TYPE_CLAMP = @"clamp";

@@ -9,7 +9,7 @@
 #if defined(__IPHONE_OS_VERSION_MAX_ALLOWED) && (__IPHONE_OS_VERSION_MAX_ALLOWED >= 12000) /* __IPHONE_12_0 */
 #import <UIKit/UIUserActivity.h>
 #endif
-#import <React/RCTEventEmitter.h>
+#import "RCTEventEmitter.h"
 
 @interface RCTLinkingManager : RCTEventEmitter
 

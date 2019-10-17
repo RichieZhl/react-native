@@ -7,9 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTSurfaceDelegate.h>
-#import <React/RCTSurfaceSizeMeasureMode.h>
-#import <React/RCTSurfaceStage.h>
+#import "RCTSurfaceDelegate.h"
+#import "RCTSurfaceSizeMeasureMode.h"
+#import "RCTSurfaceStage.h"
 
 @class RCTBridge;
 @class RCTSurface;

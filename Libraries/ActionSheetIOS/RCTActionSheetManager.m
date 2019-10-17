@@ -5,13 +5,13 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTActionSheetManager.h>
+#import "RCTActionSheetManager.h"
 
-#import <React/RCTBridge.h>
-#import <React/RCTConvert.h>
-#import <React/RCTLog.h>
-#import <React/RCTUIManager.h>
-#import <React/RCTUtils.h>
+#import "RCTBridge.h"
+#import "RCTConvert.h"
+#import "RCTLog.h"
+#import "RCTUIManager.h"
+#import "RCTUtils.h"
 
 @interface RCTActionSheetManager () <UIActionSheetDelegate>
 @end

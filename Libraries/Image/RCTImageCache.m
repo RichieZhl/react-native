@@ -5,18 +5,18 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTImageCache.h>
+#import "RCTImageCache.h"
 
 #import <objc/runtime.h>
 
 #import <ImageIO/ImageIO.h>
 
-#import <React/RCTConvert.h>
-#import <React/RCTNetworking.h>
-#import <React/RCTUtils.h>
-#import <React/RCTResizeMode.h>
+#import "RCTConvert.h"
+#import "RCTNetworking.h"
+#import "RCTUtils.h"
+#import "RCTResizeMode.h"
 
-#import <React/RCTImageUtils.h>
+#import "RCTImageUtils.h"
 
 static const NSUInteger RCTMaxCachableDecodedImageSizeInBytes = 2097152; // 2 MB
 

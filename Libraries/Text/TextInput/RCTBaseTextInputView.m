@@ -5,20 +5,20 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTBaseTextInputView.h>
+#import "RCTBaseTextInputView.h"
 
-#import <React/RCTAccessibilityManager.h>
-#import <React/RCTBridge.h>
-#import <React/RCTConvert.h>
-#import <React/RCTEventDispatcher.h>
-#import <React/RCTUIManager.h>
-#import <React/RCTUtils.h>
-#import <React/UIView+React.h>
+#import "RCTAccessibilityManager.h"
+#import "RCTBridge.h"
+#import "RCTConvert.h"
+#import "RCTEventDispatcher.h"
+#import "RCTUIManager.h"
+#import "RCTUtils.h"
+#import "UIView+React.h"
 
-#import <React/RCTInputAccessoryView.h>
-#import <React/RCTInputAccessoryViewContent.h>
-#import <React/RCTTextAttributes.h>
-#import <React/RCTTextSelection.h>
+#import "RCTInputAccessoryView.h"
+#import "RCTInputAccessoryViewContent.h"
+#import "RCTTextAttributes.h"
+#import "RCTTextSelection.h"
 
 @implementation RCTBaseTextInputView {
   __weak RCTBridge *_bridge;

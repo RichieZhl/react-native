@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTView.h>
+#import "RCTView.h"
 
 @interface RCTScrollContentView : RCTView
 

@@ -12,16 +12,16 @@
 #import <sstream>
 #import <vector>
 
-#import <React/RCTBridgeModule.h>
-#import <React/RCTConvert.h>
-#import <React/RCTCxxConvert.h>
-#import <React/RCTManagedPointer.h>
-#import <React/RCTModuleMethod.h>
-#import <React/RCTUtils.h>
-#import <ReactCommon/JSCallInvoker.h>
-#import <ReactCommon/LongLivedObject.h>
-#import <ReactCommon/TurboModule.h>
-#import <ReactCommon/TurboModuleUtils.h>
+#import "RCTBridgeModule.h"
+#import "RCTConvert.h"
+#import "RCTCxxConvert.h"
+#import "RCTManagedPointer.h"
+#import "RCTModuleMethod.h"
+#import "RCTUtils.h"
+#import "JSCallInvoker.h"
+#import "LongLivedObject.h"
+#import "TurboModule.h"
+#import "TurboModuleUtils.h"
 
 using namespace facebook;
 

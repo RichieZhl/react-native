@@ -7,11 +7,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTBridge.h>
-#import <React/RCTBridgeModule.h>
-#import <React/RCTInvalidating.h>
-#import <React/RCTRootView.h>
-#import <React/RCTViewManager.h>
+#import "RCTBridge.h"
+#import "RCTBridgeModule.h"
+#import "RCTInvalidating.h"
+#import "RCTRootView.h"
+#import "RCTViewManager.h"
 
 /**
  * Posted right before re-render happens. This is a chance for views to invalidate their state so

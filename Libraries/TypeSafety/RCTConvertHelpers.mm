@@ -7,7 +7,7 @@
 
 #import "RCTConvertHelpers.h"
 
-#import <React/RCTConvert.h>
+#import "RCTConvert.h"
 
 bool RCTBridgingToBool(id value)
 {

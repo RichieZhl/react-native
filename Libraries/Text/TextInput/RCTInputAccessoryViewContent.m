@@ -5,9 +5,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTInputAccessoryViewContent.h>
+#import "RCTInputAccessoryViewContent.h"
 
-#import <React/UIView+React.h>
+#import "UIView+React.h"
 
 @implementation RCTInputAccessoryViewContent
 {

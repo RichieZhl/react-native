@@ -7,9 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import <React/RCTBridgeMethod.h>
-#import <React/RCTBridgeModule.h>
-#import <React/RCTNullability.h>
+#import "RCTBridgeMethod.h"
+#import "RCTBridgeModule.h"
+#import "RCTNullability.h"
 
 @class RCTBridge;
 

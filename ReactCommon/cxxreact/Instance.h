@@ -8,7 +8,7 @@
 #include <condition_variable>
 #include <memory>
 
-#include <cxxreact/NativeToJsBridge.h>
+#include "NativeToJsBridge.h"
 
 #ifndef RN_EXPORT
 #define RN_EXPORT __attribute__((visibility("default")))

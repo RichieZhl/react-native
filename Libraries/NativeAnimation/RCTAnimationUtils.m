@@ -5,9 +5,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTAnimationUtils.h>
+#import "RCTAnimationUtils.h"
 
-#import <React/RCTLog.h>
+#import "RCTLog.h"
 
 static NSUInteger _RCTFindIndexOfNearestValue(CGFloat value, NSArray<NSNumber *> *range)
 {

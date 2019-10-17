@@ -5,20 +5,20 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTDevMenu.h>
+#import "RCTDevMenu.h"
 
-#import <React/RCTBridge+Private.h>
-#import <React/RCTDevSettings.h>
-#import <React/RCTKeyCommands.h>
-#import <React/RCTLog.h>
-#import <React/RCTUtils.h>
-#import <React/RCTDefines.h>
-#import <React/RCTBundleURLProvider.h>
+#import "RCTBridge+Private.h"
+#import "RCTDevSettings.h"
+#import "RCTKeyCommands.h"
+#import "RCTLog.h"
+#import "RCTUtils.h"
+#import "RCTDefines.h"
+#import "RCTBundleURLProvider.h"
 
 #if RCT_DEV
 
 #if RCT_ENABLE_INSPECTOR
-#import <React/RCTInspectorDevServerHelper.h>
+#import "RCTInspectorDevServerHelper.h"
 #endif
 
 NSString *const RCTShowDevMenuNotification = @"RCTShowDevMenuNotification";

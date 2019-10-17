@@ -7,7 +7,7 @@
 
 #include <memory>
 
-#import <React/RCTBridgeDelegate.h>
+#import "RCTBridgeDelegate.h"
 
 namespace facebook {
 namespace react {

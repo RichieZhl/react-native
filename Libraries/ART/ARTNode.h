@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/UIView+React.h>
+#import "UIView+React.h"
 
 /**
  * ART nodes are implemented as empty UIViews but this is just an implementation detail to fit

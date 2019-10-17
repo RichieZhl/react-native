@@ -5,8 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#include <ReactCommon/BridgeJSCallInvoker.h>
-#include <cxxreact/Instance.h>
+#include "BridgeJSCallInvoker.h"
+#include "Instance.h"
 
 namespace facebook {
 namespace react {

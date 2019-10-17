@@ -7,8 +7,8 @@
 
 #import <objc/runtime.h>
 
-#import <React/RCTBridgeModule.h>
-#import <React/RCTInvalidating.h>
+#import "RCTBridgeModule.h"
+#import "RCTInvalidating.h"
 
 typedef void (^RCTJavaScriptCompleteBlock)(NSError *error);
 typedef void (^RCTJavaScriptCallback)(id result, NSError *error);

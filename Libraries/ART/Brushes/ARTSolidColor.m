@@ -5,9 +5,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/ARTSolidColor.h>
+#import "ARTSolidColor.h"
 
-#import <React/RCTLog.h>
+#import "RCTLog.h"
 
 #import "RCTConvert+ART.h"
 

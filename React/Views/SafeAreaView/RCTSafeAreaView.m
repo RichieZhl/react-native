@@ -7,8 +7,8 @@
 
 #import "RCTSafeAreaView.h"
 
-#import <React/RCTBridge.h>
-#import <React/RCTUIManager.h>
+#import "RCTBridge.h"
+#import "RCTUIManager.h"
 
 #import "RCTSafeAreaViewLocalData.h"
 

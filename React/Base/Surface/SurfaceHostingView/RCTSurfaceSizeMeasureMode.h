@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTDefines.h>
+#import "RCTDefines.h"
 
 /**
  * Bitmask defines how size constrains from `-[UIView sizeThatFits:]`

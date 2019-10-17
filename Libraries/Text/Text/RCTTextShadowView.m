@@ -5,15 +5,15 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTTextShadowView.h>
+#import "RCTTextShadowView.h"
 
-#import <React/RCTBridge.h>
-#import <React/RCTShadowView+Layout.h>
-#import <React/RCTUIManager.h>
+#import "RCTBridge.h"
+#import "RCTShadowView+Layout.h"
+#import "RCTUIManager.h"
 #import <yoga/Yoga.h>
 
 #import "NSTextStorage+FontScaling.h"
-#import <React/RCTTextView.h>
+#import "RCTTextView.h"
 
 @implementation RCTTextShadowView
 {

@@ -7,7 +7,7 @@
 
 #import <CoreLocation/CoreLocation.h>
 
-#import <React/RCTConvert.h>
+#import "RCTConvert.h"
 
 @interface RCTConvert (CoreLocation)
 

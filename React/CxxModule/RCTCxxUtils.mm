@@ -7,10 +7,10 @@
 
 #import "RCTCxxUtils.h"
 
-#import <React/RCTFollyConvert.h>
-#import <React/RCTModuleData.h>
-#import <React/RCTUtils.h>
-#import <cxxreact/CxxNativeModule.h>
+#import "RCTFollyConvert.h"
+#import "RCTModuleData.h"
+#import "RCTUtils.h"
+#import "CxxNativeModule.h"
 #import <jsi/jsi.h>
 
 #import "DispatchMessageQueueThread.h"

@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTComponent.h>
+#import "RCTComponent.h"
 
 #import <UIKit/UIKit.h>
 

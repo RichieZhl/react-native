@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTDefines.h>
+#import "RCTDefines.h"
 #import <yoga/Yoga.h>
 
 NS_ASSUME_NONNULL_BEGIN

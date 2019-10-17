@@ -7,17 +7,17 @@
 
 #import "RCTObjcExecutor.h"
 
-#import <React/RCTCxxUtils.h>
-#import <React/RCTFollyConvert.h>
-#import <React/RCTJavaScriptExecutor.h>
-#import <React/RCTLog.h>
-#import <React/RCTProfile.h>
-#import <React/RCTUtils.h>
-#import <cxxreact/JSBigString.h>
-#import <cxxreact/JSExecutor.h>
-#import <cxxreact/MessageQueueThread.h>
-#import <cxxreact/ModuleRegistry.h>
-#import <cxxreact/RAMBundleRegistry.h>
+#import "RCTCxxUtils.h"
+#import "RCTFollyConvert.h"
+#import "RCTJavaScriptExecutor.h"
+#import "RCTLog.h"
+#import "RCTProfile.h"
+#import "RCTUtils.h"
+#import "JSBigString.h"
+#import "JSExecutor.h"
+#import "MessageQueueThread.h"
+#import "ModuleRegistry.h"
+#import "RAMBundleRegistry.h"
 #import <folly/json.h>
 
 namespace facebook {

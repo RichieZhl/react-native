@@ -7,8 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTBridge.h>
-#import <React/RCTBridgeModule.h>
+#import "RCTBridge.h"
+#import "RCTBridgeModule.h"
 
 #if RCT_DEV
 

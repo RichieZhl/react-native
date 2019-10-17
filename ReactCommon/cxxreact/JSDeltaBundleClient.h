@@ -10,9 +10,9 @@
 #include <string>
 #include <unordered_map>
 
-#include <cxxreact/JSBigString.h>
-#include <cxxreact/JSModulesUnbundle.h>
-#include <folly/dynamic.h>
+#include "JSBigString.h"
+#include "JSModulesUnbundle.h"
+#include <Folly/dynamic.h>
 
 namespace facebook {
 namespace react {

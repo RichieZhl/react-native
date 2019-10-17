@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTAnimationType.h>
+#import "RCTAnimationType.h"
 
 @interface RCTLayoutAnimation : NSObject
 

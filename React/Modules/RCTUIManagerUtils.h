@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <React/RCTAssert.h>
-#import <React/RCTDefines.h>
+#import "RCTAssert.h"
+#import "RCTDefines.h"
 
 /**
  * Queues Problem Intro:

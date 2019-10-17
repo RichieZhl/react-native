@@ -5,9 +5,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTEventEmitter.h>
-#import <React/RCTNetworkTask.h>
-#import <React/RCTURLRequestHandler.h>
+#import "RCTEventEmitter.h"
+#import "RCTNetworkTask.h"
+#import "RCTURLRequestHandler.h"
 
 @protocol RCTNetworkingRequestHandler <NSObject>
 

@@ -7,10 +7,10 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTBridge.h>
-#import <React/RCTResizeMode.h>
-#import <React/RCTURLRequestHandler.h>
-#import <React/RCTImageURLLoader.h>
+#import "RCTBridge.h"
+#import "RCTResizeMode.h"
+#import "RCTURLRequestHandler.h"
+#import "RCTImageURLLoader.h"
 
 /**
  * Provides the interface needed to register an image decoder. Image decoders

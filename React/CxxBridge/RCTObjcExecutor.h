@@ -8,8 +8,8 @@
 #include <functional>
 #include <memory>
 
-#import <React/RCTDefines.h>
-#import <React/RCTJavaScriptExecutor.h>
+#import "RCTDefines.h"
+#import "RCTJavaScriptExecutor.h"
 #import "JSExecutor.h"
 
 namespace facebook {

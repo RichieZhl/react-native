@@ -5,25 +5,25 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTPackagerConnection.h>
+#import "RCTPackagerConnection.h"
 
 #import <algorithm>
 #import <objc/runtime.h>
 #import <vector>
 
-#import <React/RCTAssert.h>
-#import <React/RCTBridge.h>
-#import <React/RCTBundleURLProvider.h>
-#import <React/RCTConvert.h>
-#import <React/RCTDefines.h>
-#import <React/RCTLog.h>
-#import <React/RCTPackagerClient.h>
-#import <React/RCTReconnectingWebSocket.h>
-#import <React/RCTUtils.h>
+#import "RCTAssert.h"
+#import "RCTBridge.h"
+#import "RCTBundleURLProvider.h"
+#import "RCTConvert.h"
+#import "RCTDefines.h"
+#import "RCTLog.h"
+#import "RCTPackagerClient.h"
+#import "RCTReconnectingWebSocket.h"
+#import "RCTUtils.h"
 
 #if RCT_DEV && !TARGET_OS_UIKITFORMAC
 
-#import <React/RCTSRWebSocket.h>
+#import "RCTSRWebSocket.h"
 
 @interface RCTPackagerConnection () <RCTReconnectingWebSocketDelegate>
 @end

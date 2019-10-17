@@ -7,7 +7,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-#import <React/RCTConvert.h>
+#import "RCTConvert.h"
 
 #import "ARTBrush.h"
 #import "ARTCGFloatArray.h"

@@ -5,9 +5,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTInvalidating.h>
-#import <React/RCTViewManager.h>
-#import <React/RCTConvert.h>
+#import "RCTInvalidating.h"
+#import "RCTViewManager.h"
+#import "RCTConvert.h"
 
 @interface RCTConvert (RCTModalHostView)
 

@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTEventDispatcher.h>
+#import "RCTEventDispatcher.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

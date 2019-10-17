@@ -11,14 +11,14 @@
 #import <cassert>
 #import <mutex>
 
-#import <React/RCTBridge+Private.h>
-#import <React/RCTBridgeModule.h>
-#import <React/RCTCxxModule.h>
-#import <React/RCTLog.h>
-#import <React/RCTPerformanceLogger.h>
-#import <ReactCommon/BridgeJSCallInvoker.h>
-#import <ReactCommon/TurboCxxModule.h>
-#import <ReactCommon/TurboModuleBinding.h>
+#import "RCTBridge+Private.h"
+#import "RCTBridgeModule.h"
+#import "RCTCxxModule.h"
+#import "RCTLog.h"
+#import "RCTPerformanceLogger.h"
+#import "BridgeJSCallInvoker.h"
+#import "TurboCxxModule.h"
+#import "TurboModuleBinding.h"
 
 using namespace facebook;
 

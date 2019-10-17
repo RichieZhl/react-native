@@ -5,14 +5,14 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTBlobManager.h>
+#import "RCTBlobManager.h"
 
 #import <mutex>
 
-#import <React/RCTConvert.h>
-#import <React/RCTNetworking.h>
-#import <React/RCTUtils.h>
-#import <React/RCTWebSocketModule.h>
+#import "RCTConvert.h"
+#import "RCTNetworking.h"
+#import "RCTUtils.h"
+#import "RCTWebSocketModule.h"
 #import "RCTBlobCollector.h"
 
 static NSString *const kBlobURIScheme = @"blob";

@@ -5,8 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTDefines.h>
-#import <React/RCTJavaScriptExecutor.h>
+#import "RCTDefines.h"
+#import "RCTJavaScriptExecutor.h"
 
 #if RCT_DEV // Debug executors are only supported in dev mode
 

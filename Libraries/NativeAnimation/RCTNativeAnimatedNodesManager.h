@@ -6,8 +6,8 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <React/RCTBridgeModule.h>
-#import <React/RCTUIManager.h>
+#import "RCTBridgeModule.h"
+#import "RCTUIManager.h"
 
 @protocol RCTValueAnimatedNodeObserver;
 

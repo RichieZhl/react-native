@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTShadowView.h>
+#import "RCTShadowView.h"
 
 @interface RCTShadowView (Layout)
 

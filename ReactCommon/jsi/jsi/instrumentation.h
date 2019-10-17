@@ -9,7 +9,7 @@
 #include <iosfwd>
 #include <string>
 
-#include "jsi.h"
+#include <jsi/jsi.h>
 
 namespace facebook {
 namespace jsi {

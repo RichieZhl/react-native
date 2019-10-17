@@ -7,14 +7,14 @@
 
 #import "RCTNativeModule.h"
 
-#import <React/RCTBridge.h>
-#import <React/RCTBridgeMethod.h>
-#import <React/RCTBridgeModule.h>
-#import <React/RCTCxxUtils.h>
-#import <React/RCTFollyConvert.h>
-#import <React/RCTLog.h>
-#import <React/RCTProfile.h>
-#import <React/RCTUtils.h>
+#import "RCTBridge.h"
+#import "RCTBridgeMethod.h"
+#import "RCTBridgeModule.h"
+#import "RCTCxxUtils.h"
+#import "RCTFollyConvert.h"
+#import "RCTLog.h"
+#import "RCTProfile.h"
+#import "RCTUtils.h"
 
 #ifdef WITH_FBSYSTRACE
 #include <fbsystrace.h>

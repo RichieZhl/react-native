@@ -5,11 +5,11 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTLinkingManager.h>
+#import "RCTLinkingManager.h"
 
-#import <React/RCTBridge.h>
-#import <React/RCTEventDispatcher.h>
-#import <React/RCTUtils.h>
+#import "RCTBridge.h"
+#import "RCTEventDispatcher.h"
+#import "RCTUtils.h"
 
 static NSString *const kOpenURLNotification = @"RCTOpenURLNotification";
 

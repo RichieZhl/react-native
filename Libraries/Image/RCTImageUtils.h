@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTDefines.h>
-#import <React/RCTResizeMode.h>
+#import "RCTDefines.h"
+#import "RCTResizeMode.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -5,8 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTUIImageViewAnimated.h>
-#import <React/RCTWeakProxy.h>
+#import "RCTUIImageViewAnimated.h"
+#import "RCTWeakProxy.h"
 
 #import <mach/mach.h>
 #import <objc/runtime.h>

@@ -10,15 +10,15 @@
 
 #import <ImageIO/ImageIO.h>
 
-#import <FBReactNativeSpec/FBReactNativeSpec.h>
-#import <React/RCTConvert.h>
-#import <React/RCTDefines.h>
-#import <React/RCTImageCache.h>
-#import <React/RCTImageLoader.h>
-#import <React/RCTImageUtils.h>
-#import <React/RCTLog.h>
-#import <React/RCTNetworking.h>
-#import <React/RCTUtils.h>
+#import "FBReactNativeSpec.h"
+#import "RCTConvert.h"
+#import "RCTDefines.h"
+#import "RCTImageCache.h"
+#import "RCTImageLoader.h"
+#import "RCTImageUtils.h"
+#import "RCTLog.h"
+#import "RCTNetworking.h"
+#import "RCTUtils.h"
 
 #import "CoreModulesPlugins.h"
 

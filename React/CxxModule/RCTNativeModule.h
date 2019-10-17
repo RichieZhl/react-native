@@ -5,8 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTModuleData.h>
-#import <cxxreact/NativeModule.h>
+#import "RCTModuleData.h"
+#import "NativeModule.h"
 
 namespace facebook {
 namespace react {

@@ -7,8 +7,8 @@
 
 #import "RCTScrollContentView.h"
 
-#import <React/RCTAssert.h>
-#import <React/UIView+React.h>
+#import "RCTAssert.h"
+#import "UIView+React.h"
 
 #import "RCTScrollView.h"
 

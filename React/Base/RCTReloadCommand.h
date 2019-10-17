@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <React/RCTDefines.h>
+#import "RCTDefines.h"
 
 @protocol RCTReloadListener
 - (void)didReceiveReloadCommand;

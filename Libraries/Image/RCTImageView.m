@@ -5,19 +5,19 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTImageView.h>
+#import "RCTImageView.h"
 
-#import <React/RCTBridge.h>
-#import <React/RCTConvert.h>
-#import <React/RCTEventDispatcher.h>
-#import <React/RCTImageSource.h>
-#import <React/RCTUtils.h>
-#import <React/UIView+React.h>
+#import "RCTBridge.h"
+#import "RCTConvert.h"
+#import "RCTEventDispatcher.h"
+#import "RCTImageSource.h"
+#import "RCTUtils.h"
+#import "UIView+React.h"
 
-#import <React/RCTUIImageViewAnimated.h>
-#import <React/RCTImageBlurUtils.h>
-#import <React/RCTImageUtils.h>
-#import <React/RCTImageLoaderProtocol.h>
+#import "RCTUIImageViewAnimated.h"
+#import "RCTImageBlurUtils.h"
+#import "RCTImageUtils.h"
+#import "RCTImageLoaderProtocol.h"
 
 /**
  * Determines whether an image of `currentSize` should be reloaded for display

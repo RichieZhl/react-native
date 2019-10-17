@@ -9,8 +9,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <React/RCTJavaScriptExecutor.h>
-#import <cxxreact/MessageQueueThread.h>
+#import "RCTJavaScriptExecutor.h"
+#import "MessageQueueThread.h"
 
 namespace facebook {
 namespace react {

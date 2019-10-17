@@ -5,18 +5,18 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTImageStoreManager.h>
+#import "RCTImageStoreManager.h"
 
 #import <stdatomic.h>
 
 #import <ImageIO/ImageIO.h>
 #import <MobileCoreServices/UTType.h>
 
-#import <React/RCTAssert.h>
-#import <React/RCTLog.h>
-#import <React/RCTUtils.h>
+#import "RCTAssert.h"
+#import "RCTLog.h"
+#import "RCTUtils.h"
 
-#import <React/RCTImageUtils.h>
+#import "RCTImageUtils.h"
 
 static NSString *const RCTImageStoreURLScheme = @"rct-image-store";
 

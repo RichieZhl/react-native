@@ -14,7 +14,7 @@
 #include <cerrno>
 #include <stdexcept>
 
-#include "jsilib.h"
+#include <jsi/jsilib.h>
 
 #if __APPLE__
 #include <mach/vm_statistics.h>

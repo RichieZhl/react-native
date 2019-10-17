@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTComponent.h>
+#import "RCTComponent.h"
 
 @interface RCTSegmentedControl : UISegmentedControl
 

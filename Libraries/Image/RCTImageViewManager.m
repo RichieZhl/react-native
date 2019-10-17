@@ -5,16 +5,16 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTImageViewManager.h>
+#import "RCTImageViewManager.h"
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTConvert.h>
-#import <React/RCTImageSource.h>
+#import "RCTConvert.h"
+#import "RCTImageSource.h"
 
-#import <React/RCTImageShadowView.h>
-#import <React/RCTImageView.h>
-#import <React/RCTImageLoaderProtocol.h>
+#import "RCTImageShadowView.h"
+#import "RCTImageView.h"
+#import "RCTImageLoaderProtocol.h"
 
 @implementation RCTImageViewManager
 

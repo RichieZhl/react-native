@@ -5,8 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTShadowView.h>
-#import <React/RCTSurfaceRootShadowViewDelegate.h>
+#import "RCTShadowView.h"
+#import "RCTSurfaceRootShadowViewDelegate.h"
 #import <yoga/YGEnums.h>
 
 @interface RCTSurfaceRootShadowView : RCTShadowView

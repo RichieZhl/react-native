@@ -10,8 +10,8 @@
 #include <condition_variable>
 #include <mutex>
 
-#import <React/RCTCxxUtils.h>
-#import <React/RCTUtils.h>
+#import "RCTCxxUtils.h"
+#import "RCTUtils.h"
 
 // A note about the implementation: This class is not used
 // generically.  It's a thin wrapper around a run loop which

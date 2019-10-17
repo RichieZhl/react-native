@@ -6,8 +6,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import <React/RCTDefines.h>
-#import <React/RCTInspectorPackagerConnection.h>
+#import "RCTDefines.h"
+#import "RCTInspectorPackagerConnection.h"
 
 #if RCT_DEV && !TARGET_OS_UIKITFORMAC
 

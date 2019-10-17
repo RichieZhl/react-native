@@ -5,9 +5,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/ARTBrush.h>
+#import "ARTBrush.h"
 
-#import <React/RCTDefines.h>
+#import "RCTDefines.h"
 
 @implementation ARTBrush
 

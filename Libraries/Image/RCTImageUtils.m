@@ -5,15 +5,15 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTImageUtils.h>
+#import "RCTImageUtils.h"
 
 #import <tgmath.h>
 
 #import <ImageIO/ImageIO.h>
 #import <MobileCoreServices/UTCoreTypes.h>
 
-#import <React/RCTLog.h>
-#import <React/RCTUtils.h>
+#import "RCTLog.h"
+#import "RCTUtils.h"
 
 static CGFloat RCTCeilValue(CGFloat value, CGFloat scale)
 {

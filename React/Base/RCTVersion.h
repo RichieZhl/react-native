@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <React/RCTDefines.h>
+#import "RCTDefines.h"
 
 RCT_EXTERN NSString* const RCTVersionMajor;
 RCT_EXTERN NSString* const RCTVersionMinor;

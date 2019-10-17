@@ -16,7 +16,7 @@
 
 #if !TARGET_OS_UIKITFORMAC
 
-#import <React/RCTSRWebSocket.h>
+#import "RCTSRWebSocket.h"
 
 #import <Availability.h>
 #import <Endian.h>
@@ -24,8 +24,8 @@
 #import <Security/SecRandom.h>
 
 #import <CommonCrypto/CommonDigest.h>
-#import <React/RCTAssert.h>
-#import <React/RCTLog.h>
+#import "RCTAssert.h"
+#import "RCTLog.h"
 
 typedef NS_ENUM(NSInteger, RCTSROpCode)  {
   RCTSROpCodeTextFrame = 0x1,

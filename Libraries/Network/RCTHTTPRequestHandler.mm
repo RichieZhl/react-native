@@ -5,11 +5,11 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTHTTPRequestHandler.h>
+#import "RCTHTTPRequestHandler.h"
 
 #import <mutex>
 
-#import <React/RCTNetworking.h>
+#import "RCTNetworking.h"
 
 @interface RCTHTTPRequestHandler () <NSURLSessionDataDelegate>
 

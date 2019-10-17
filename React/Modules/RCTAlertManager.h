@@ -7,8 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTBridgeModule.h>
-#import <React/RCTInvalidating.h>
+#import "RCTBridgeModule.h"
+#import "RCTInvalidating.h"
 
 typedef NS_ENUM(NSInteger, RCTAlertViewStyle) {
   RCTAlertViewStyleDefault = 0,

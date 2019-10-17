@@ -8,11 +8,11 @@
 #import "RCTExceptionsManager.h"
 
 #import "FBReactNativeSpec.h"
-#import <React/RCTConvert.h>
-#import <React/RCTDefines.h>
-#import <React/RCTLog.h>
-#import <React/RCTRedBox.h>
-#import <React/RCTRootView.h>
+#import "RCTConvert.h"
+#import "RCTDefines.h"
+#import "RCTLog.h"
+#import "RCTRedBox.h"
+#import "RCTRootView.h"
 
 #import "CoreModulesPlugins.h"
 

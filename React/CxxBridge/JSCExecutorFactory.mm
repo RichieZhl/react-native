@@ -7,7 +7,7 @@
 
 #include "JSCExecutorFactory.h"
 
-#import <React/RCTLog.h>
+#import "RCTLog.h"
 #import <jsi/JSCRuntime.h>
 
 namespace facebook {

@@ -5,14 +5,14 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTNetInfo.h>
+#import "RCTNetInfo.h"
 
 #if !TARGET_OS_TV && !TARGET_OS_UIKITFORMAC
   #import <CoreTelephony/CTTelephonyNetworkInfo.h>
 #endif
-#import <React/RCTAssert.h>
-#import <React/RCTBridge.h>
-#import <React/RCTEventDispatcher.h>
+#import "RCTAssert.h"
+#import "RCTBridge.h"
+#import "RCTEventDispatcher.h"
 
 // Based on the ConnectionType enum described in the W3C Network Information API spec
 // (https://wicg.github.io/netinfo/).

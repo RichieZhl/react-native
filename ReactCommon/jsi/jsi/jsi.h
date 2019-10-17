@@ -1260,4 +1260,4 @@ class JSError : public JSIException {
 } // namespace jsi
 } // namespace facebook
 
-#include "jsi-inl.h"
+#include <jsi/jsi-inl.h>

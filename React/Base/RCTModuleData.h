@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <React/RCTInvalidating.h>
+#import "RCTInvalidating.h"
 
 @protocol RCTBridgeMethod;
 @protocol RCTBridgeModule;

@@ -5,13 +5,13 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTGIFImageDecoder.h>
+#import "RCTGIFImageDecoder.h"
 
 #import <ImageIO/ImageIO.h>
 #import <QuartzCore/QuartzCore.h>
 
-#import <React/RCTUtils.h>
-#import <React/RCTAnimatedImage.h>
+#import "RCTUtils.h"
+#import "RCTAnimatedImage.h"
 
 @implementation RCTGIFImageDecoder
 

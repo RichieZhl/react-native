@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTTextDecorationLineType.h>
+#import "RCTTextDecorationLineType.h"
 
 #import "RCTTextTransform.h"
 

@@ -106,4 +106,4 @@ inline std::string jsArgAsString(const folly::dynamic& args, size_t n) {
 
 }}
 
-#include <cxxreact/JsArgumentHelpers-inl.h>
+#include "JsArgumentHelpers-inl.h"

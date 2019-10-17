@@ -7,8 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTSurfaceStage.h>
-#import <React/RCTSurfaceView.h>
+#import "RCTSurfaceStage.h"
+#import "RCTSurfaceView.h"
 
 @class RCTSurfaceRootView;
 

@@ -5,13 +5,13 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTBridgeModule.h>
-#import <React/RCTEventDispatcher.h>
-#import <React/RCTEventEmitter.h>
-#import <React/RCTSurfacePresenterStub.h>
-#import <React/RCTUIManager.h>
-#import <React/RCTUIManagerObserverCoordinator.h>
-#import <React/RCTUIManagerUtils.h>
+#import "RCTBridgeModule.h"
+#import "RCTEventDispatcher.h"
+#import "RCTEventEmitter.h"
+#import "RCTSurfacePresenterStub.h"
+#import "RCTUIManager.h"
+#import "RCTUIManagerObserverCoordinator.h"
+#import "RCTUIManagerUtils.h"
 
 #import "RCTValueAnimatedNode.h"
 

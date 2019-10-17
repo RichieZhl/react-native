@@ -8,32 +8,32 @@
 #include <atomic>
 #include <future>
 
-#import <React/RCTAssert.h>
-#import <React/RCTBridge+Private.h>
-#import <React/RCTBridge.h>
-#import <React/RCTBridgeMethod.h>
-#import <React/RCTConvert.h>
-#import <React/RCTCxxBridgeDelegate.h>
-#import <React/RCTCxxModule.h>
-#import <React/RCTCxxUtils.h>
-#import <React/RCTDevSettings.h>
-#import <React/RCTDisplayLink.h>
-#import <React/RCTJavaScriptLoader.h>
-#import <React/RCTLog.h>
-#import <React/RCTModuleData.h>
-#import <React/RCTPerformanceLogger.h>
-#import <React/RCTProfile.h>
-#import <React/RCTRedBox.h>
-#import <React/RCTUtils.h>
-#import <React/RCTFollyConvert.h>
-#import <cxxreact/CxxNativeModule.h>
-#import <cxxreact/Instance.h>
-#import <cxxreact/JSBundleType.h>
-#import <cxxreact/JSIndexedRAMBundle.h>
-#import <cxxreact/ModuleRegistry.h>
-#import <cxxreact/RAMBundleRegistry.h>
-#import <cxxreact/ReactMarker.h>
-#import <jsireact/JSIExecutor.h>
+#import "RCTAssert.h"
+#import "RCTBridge+Private.h"
+#import "RCTBridge.h"
+#import "RCTBridgeMethod.h"
+#import "RCTConvert.h"
+#import "RCTCxxBridgeDelegate.h"
+#import "RCTCxxModule.h"
+#import "RCTCxxUtils.h"
+#import "RCTDevSettings.h"
+#import "RCTDisplayLink.h"
+#import "RCTJavaScriptLoader.h"
+#import "RCTLog.h"
+#import "RCTModuleData.h"
+#import "RCTPerformanceLogger.h"
+#import "RCTProfile.h"
+#import "RCTRedBox.h"
+#import "RCTUtils.h"
+#import "RCTFollyConvert.h"
+#import "CxxNativeModule.h"
+#import "Instance.h"
+#import "JSBundleType.h"
+#import "JSIndexedRAMBundle.h"
+#import "ModuleRegistry.h"
+#import "RAMBundleRegistry.h"
+#import "ReactMarker.h"
+#import "JSIExecutor.h"
 
 #import "JSCExecutorFactory.h"
 #import "NSDataBigString.h"
@@ -41,11 +41,11 @@
 #import "RCTObjcExecutor.h"
 
 #ifdef WITH_FBSYSTRACE
-#import <React/RCTFBSystrace.h>
+#import "RCTFBSystrace.h>
 #endif
 
-#if RCT_DEV && __has_include(<React/RCTDevLoadingView.h>)
-#import <React/RCTDevLoadingView.h>
+#if RCT_DEV && __has_include("RCTDevLoadingView.h")
+#import "RCTDevLoadingView.h"
 #endif
 
 #define RCTAssertJSThread() \
@@ -375,7 +375,7 @@ struct RCTInstanceCallback : public InstanceCallback {
     sourceCode = source.data;
     dispatch_group_leave(prepareBridge);
   } onProgress:^(RCTLoadingProgress *progressData) {
-#if RCT_DEV && __has_include(<React/RCTDevLoadingView.h>)
+#if RCT_DEV && __has_include("RCTDevLoadingView.h")
     // Note: RCTDevLoadingView should have been loaded at this point, so no need to allow lazy loading.
     RCTDevLoadingView *loadingView = [weakSelf moduleForName:RCTBridgeModuleNameForClass([RCTDevLoadingView class])
                                        lazilyLoadIfNecessary:NO];

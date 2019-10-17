@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTView.h>
+#import "RCTView.h"
 
 #import "RCTBackedTextInputDelegate.h"
 #import "RCTBackedTextInputViewProtocol.h"

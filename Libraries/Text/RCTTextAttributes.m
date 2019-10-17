@@ -5,11 +5,11 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTTextAttributes.h>
+#import "RCTTextAttributes.h"
 
-#import <React/RCTAssert.h>
-#import <React/RCTFont.h>
-#import <React/RCTLog.h>
+#import "RCTAssert.h"
+#import "RCTFont.h"
+#import "RCTLog.h"
 
 NSString *const RCTTextAttributesIsHighlightedAttributeName = @"RCTTextAttributesIsHighlightedAttributeName";
 NSString *const RCTTextAttributesTagAttributeName = @"RCTTextAttributesTagAttributeName";

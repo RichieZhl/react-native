@@ -7,13 +7,13 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTBridge.h>
-#import <React/RCTResizeMode.h>
-#import <React/RCTURLRequestHandler.h>
-#import <React/RCTImageDataDecoder.h>
-#import <React/RCTImageURLLoader.h>
-#import <React/RCTImageCache.h>
-#import <React/RCTImageLoaderProtocol.h>
+#import "RCTBridge.h"
+#import "RCTResizeMode.h"
+#import "RCTURLRequestHandler.h"
+#import "RCTImageDataDecoder.h"
+#import "RCTImageURLLoader.h"
+#import "RCTImageCache.h"
+#import "RCTImageLoaderProtocol.h"
 
 @interface RCTImageLoader : NSObject <RCTBridgeModule, RCTImageLoaderProtocol>
 - (instancetype)init;

@@ -7,8 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import <React/RCTComponent.h>
-#import <React/RCTScrollableProtocol.h>
+#import "RCTComponent.h"
+#import "RCTScrollableProtocol.h"
 
 @interface RCTRefreshControl : UIRefreshControl <RCTCustomRefreshContolProtocol>
 

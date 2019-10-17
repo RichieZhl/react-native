@@ -8,15 +8,15 @@
 
 #import <mutex>
 
-#import <React/RCTAssert.h>
-#import <React/RCTConvert.h>
-#import <React/RCTEventDispatcher.h>
-#import <React/RCTLog.h>
-#import <React/RCTNetworkTask.h>
-#import <React/RCTNetworking.h>
-#import <React/RCTUtils.h>
+#import "RCTAssert.h"
+#import "RCTConvert.h"
+#import "RCTEventDispatcher.h"
+#import "RCTLog.h"
+#import "RCTNetworkTask.h"
+#import "RCTNetworking.h"
+#import "RCTUtils.h"
 
-#import <React/RCTHTTPRequestHandler.h>
+#import "RCTHTTPRequestHandler.h"
 
 typedef RCTURLRequestCancellationBlock (^RCTHTTPQueryResult)(NSError *error, NSDictionary<NSString *, id> *result);
 

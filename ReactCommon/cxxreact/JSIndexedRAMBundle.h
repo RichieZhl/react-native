@@ -8,8 +8,8 @@
 #include <istream>
 #include <memory>
 
-#include <cxxreact/JSBigString.h>
-#include <cxxreact/JSModulesUnbundle.h>
+#include "JSBigString.h"
+#include "JSModulesUnbundle.h"
 
 #ifndef RN_EXPORT
 #define RN_EXPORT __attribute__((visibility("default")))

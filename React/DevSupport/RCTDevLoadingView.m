@@ -5,14 +5,14 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTDevLoadingView.h>
+#import "RCTDevLoadingView.h"
 
 #import <QuartzCore/QuartzCore.h>
 
-#import <React/RCTBridge.h>
-#import <React/RCTDefines.h>
-#import <React/RCTModalHostViewController.h>
-#import <React/RCTUtils.h>
+#import "RCTBridge.h"
+#import "RCTDefines.h"
+#import "RCTModalHostViewController.h"
+#import "RCTUtils.h"
 
 #if RCT_DEV | RCT_ENABLE_LOADING_VIEW
 

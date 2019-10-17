@@ -7,7 +7,7 @@
 
 #import <objc/runtime.h>
 
-#import <React/RCTBridge.h>
+#import "RCTBridge.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

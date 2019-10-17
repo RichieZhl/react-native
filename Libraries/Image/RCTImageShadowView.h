@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTShadowView.h>
+#import "RCTShadowView.h"
 
 @interface RCTImageShadowView : RCTShadowView
 

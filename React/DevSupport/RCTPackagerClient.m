@@ -5,11 +5,11 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTPackagerClient.h>
+#import "RCTPackagerClient.h"
 
-#import <React/RCTLog.h>
-#import <React/RCTReconnectingWebSocket.h>
-#import <React/RCTUtils.h>
+#import "RCTLog.h"
+#import "RCTReconnectingWebSocket.h"
+#import "RCTUtils.h"
 
 #if RCT_DEV // Only supported in dev mode
 

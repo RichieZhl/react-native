@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <React/RCTShadowView.h>
+#import "RCTShadowView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

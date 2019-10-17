@@ -10,7 +10,7 @@
 #include <memory>
 #include <vector>
 
-#include <cxxreact/CxxModule.h>
+#include "CxxModule.h"
 
 #include "TurboModule.h"
 

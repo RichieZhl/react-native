@@ -7,7 +7,7 @@
 
 #import "RCTTypedModuleConstants.h"
 
-#import <React/RCTDefines.h>
+#import "RCTDefines.h"
 
 @implementation _RCTTypedModuleConstants {
   NSDictionary *_dictionary;
