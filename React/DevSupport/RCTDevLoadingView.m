@@ -1,18 +1,18 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTDevLoadingView.h"
+#import <React/RCTDevLoadingView.h>
 
 #import <QuartzCore/QuartzCore.h>
 
-#import "RCTBridge.h"
-#import "RCTDefines.h"
-#import "RCTModalHostViewController.h"
-#import "RCTUtils.h"
+#import <React/RCTBridge.h>
+#import <React/RCTDefines.h>
+#import <React/RCTModalHostViewController.h>
+#import <React/RCTUtils.h>
 
 #if RCT_DEV | RCT_ENABLE_LOADING_VIEW
 
@@ -32,11 +32,6 @@ RCT_EXPORT_MODULE()
 + (void)setEnabled:(BOOL)enabled
 {
   isEnabled = enabled;
-}
-
-- (void)dealloc
-{
-  [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 + (BOOL)requiresMainQueueSetup
@@ -74,7 +69,7 @@ RCT_EXPORT_METHOD(showMessage:(NSString *)message color:(UIColor *)color backgro
       CGSize screenSize = [UIScreen mainScreen].bounds.size;
 
       if (@available(iOS 11.0, *)) {
-        UIWindow *window = UIApplication.sharedApplication.keyWindow;
+        UIWindow *window = RCTSharedApplication().keyWindow;
         self->_window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, screenSize.width, window.safeAreaInsets.top + 30)];
         self->_label = [[UILabel alloc] initWithFrame:CGRectMake(0, window.safeAreaInsets.top, screenSize.width, 30)];
       } else {

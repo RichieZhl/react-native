@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "RCTBridgeMethod.h"
-#import "CxxModule.h"
+#import <React/RCTBridgeMethod.h>
+#import <cxxreact/CxxModule.h>
 
 @interface RCTCxxMethod : NSObject <RCTBridgeMethod>
 

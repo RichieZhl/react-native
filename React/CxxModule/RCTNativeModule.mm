@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,14 +7,14 @@
 
 #import "RCTNativeModule.h"
 
-#import "RCTBridge.h"
-#import "RCTBridgeMethod.h"
-#import "RCTBridgeModule.h"
-#import "RCTCxxUtils.h"
-#import "RCTFollyConvert.h"
-#import "RCTLog.h"
-#import "RCTProfile.h"
-#import "RCTUtils.h"
+#import <React/RCTBridge.h>
+#import <React/RCTBridgeMethod.h>
+#import <React/RCTBridgeModule.h>
+#import <React/RCTCxxUtils.h>
+#import <React/RCTFollyConvert.h>
+#import <React/RCTLog.h>
+#import <React/RCTProfile.h>
+#import <React/RCTUtils.h>
 
 #ifdef WITH_FBSYSTRACE
 #include <fbsystrace.h>

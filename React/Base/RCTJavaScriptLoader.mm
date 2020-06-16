@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -9,7 +9,7 @@
 
 #import <sys/stat.h>
 
-#import "JSBundleType.h"
+#import <cxxreact/JSBundleType.h>
 
 #import "RCTBridge.h"
 #import "RCTConvert.h"

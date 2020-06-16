@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "RCTDefines.h"
+#import <React/RCTDefines.h>
 
 extern NSString *const RCTJavaScriptLoaderErrorDomain;
 
@@ -74,7 +74,9 @@ typedef void (^RCTSourceLoadBlock)(NSError *error, RCTSource *source);
 
 @interface RCTJavaScriptLoader : NSObject
 
-+ (void)loadBundleAtURL:(NSURL *)scriptURL onProgress:(RCTSourceLoadProgressBlock)onProgress onComplete:(RCTSourceLoadBlock)onComplete;
++ (void)loadBundleAtURL:(NSURL *)scriptURL
+             onProgress:(RCTSourceLoadProgressBlock)onProgress
+             onComplete:(RCTSourceLoadBlock)onComplete;
 
 /**
  * @experimental

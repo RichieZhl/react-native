@@ -1,25 +1,24 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTBaseTextInputViewManager.h"
+#import <React/RCTBaseTextInputViewManager.h>
 
-#import "RCTAccessibilityManager.h"
-#import "RCTBridge.h"
-#import "RCTConvert.h"
-#import "RCTFont.h"
-#import "RCTShadowView+Layout.h"
-#import "RCTShadowView.h"
-#import "RCTUIManager.h"
-#import "RCTUIManagerUtils.h"
-#import "RCTUIManagerObserverCoordinator.h"
+#import <React/RCTBridge.h>
+#import <React/RCTConvert.h>
+#import <React/RCTFont.h>
+#import <React/RCTShadowView+Layout.h>
+#import <React/RCTShadowView.h>
+#import <React/RCTUIManager.h>
+#import <React/RCTUIManagerUtils.h>
+#import <React/RCTUIManagerObserverCoordinator.h>
 
-#import "RCTBaseTextInputShadowView.h"
-#import "RCTBaseTextInputView.h"
-#import "RCTConvert+Text.h"
+#import <React/RCTBaseTextInputShadowView.h>
+#import <React/RCTBaseTextInputView.h>
+#import <React/RCTConvert+Text.h>
 
 @interface RCTBaseTextInputViewManager () <RCTUIManagerObserver>
 
@@ -48,7 +47,8 @@ RCT_REMAP_VIEW_PROPERTY(spellCheck, backedTextInputView.spellCheckingType, UITex
 RCT_REMAP_VIEW_PROPERTY(caretHidden, backedTextInputView.caretHidden, BOOL)
 RCT_REMAP_VIEW_PROPERTY(clearButtonMode, backedTextInputView.clearButtonMode, UITextFieldViewMode)
 RCT_REMAP_VIEW_PROPERTY(scrollEnabled, backedTextInputView.scrollEnabled, BOOL)
-RCT_EXPORT_VIEW_PROPERTY(secureTextEntry, BOOL)
+RCT_REMAP_VIEW_PROPERTY(secureTextEntry, backedTextInputView.secureTextEntry, BOOL)
+RCT_EXPORT_VIEW_PROPERTY(autoFocus, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(blurOnSubmit, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(clearTextOnFocus, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(keyboardType, UIKeyboardType)
@@ -74,7 +74,9 @@ RCT_EXPORT_SHADOW_PROPERTY(onContentSizeChange, RCTBubblingEventBlock)
 - (RCTShadowView *)shadowView
 {
   RCTBaseTextInputShadowView *shadowView = [[RCTBaseTextInputShadowView alloc] initWithBridge:self.bridge];
-  shadowView.textAttributes.fontSizeMultiplier = self.bridge.accessibilityManager.multiplier;
+  shadowView.textAttributes.fontSizeMultiplier = [[[self.bridge
+                                                    moduleForName:@"AccessibilityManager"
+                                                    lazilyLoadIfNecessary:YES] valueForKey:@"multiplier"] floatValue];
   [_shadowViews addObject:shadowView];
   return shadowView;
 }
@@ -89,13 +91,9 @@ RCT_EXPORT_SHADOW_PROPERTY(onContentSizeChange, RCTBubblingEventBlock)
 
   [[NSNotificationCenter defaultCenter] addObserver:self
                                            selector:@selector(handleDidUpdateMultiplierNotification)
-                                               name:RCTAccessibilityManagerDidUpdateMultiplierNotification
-                                             object:bridge.accessibilityManager];
-}
-
-- (void)dealloc
-{
-  [[NSNotificationCenter defaultCenter] removeObserver:self];
+                                               name:@"RCTAccessibilityManagerDidUpdateMultiplierNotification"
+                                             object:[bridge moduleForName:@"AccessibilityManager"
+                                                    lazilyLoadIfNecessary:YES]];
 }
 
 #pragma mark - RCTUIManagerObserver
@@ -111,7 +109,8 @@ RCT_EXPORT_SHADOW_PROPERTY(onContentSizeChange, RCTBubblingEventBlock)
 
 - (void)handleDidUpdateMultiplierNotification
 {
-  CGFloat fontSizeMultiplier = self.bridge.accessibilityManager.multiplier;
+  CGFloat fontSizeMultiplier = [[[self.bridge moduleForName:@"AccessibilityManager"]
+                                 valueForKey:@"multiplier"] floatValue];
 
   NSHashTable<RCTBaseTextInputShadowView *> *shadowViews = _shadowViews;
   RCTExecuteOnUIManagerQueue(^{

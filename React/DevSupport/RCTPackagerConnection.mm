@@ -1,29 +1,29 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTPackagerConnection.h"
+#import <React/RCTPackagerConnection.h>
 
 #import <algorithm>
 #import <objc/runtime.h>
 #import <vector>
 
-#import "RCTAssert.h"
-#import "RCTBridge.h"
-#import "RCTBundleURLProvider.h"
-#import "RCTConvert.h"
-#import "RCTDefines.h"
-#import "RCTLog.h"
-#import "RCTPackagerClient.h"
-#import "RCTReconnectingWebSocket.h"
-#import "RCTUtils.h"
+#import <React/RCTAssert.h>
+#import <React/RCTBridge.h>
+#import <React/RCTBundleURLProvider.h>
+#import <React/RCTConvert.h>
+#import <React/RCTDefines.h>
+#import <React/RCTLog.h>
+#import <React/RCTPackagerClient.h>
+#import <React/RCTReconnectingWebSocket.h>
+#import <React/RCTUtils.h>
 
-#if RCT_DEV && !TARGET_OS_UIKITFORMAC
+#if RCT_DEV
 
-#import "RCTSRWebSocket.h"
+#import <React/RCTSRWebSocket.h>
 
 @interface RCTPackagerConnection () <RCTReconnectingWebSocketDelegate>
 @end

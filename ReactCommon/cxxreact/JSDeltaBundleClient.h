@@ -1,7 +1,9 @@
-// Copyright (c) Facebook, Inc. and its affiliates.
-
-// This source code is licensed under the MIT license found in the
-// LICENSE file in the root directory of this source tree.
+/*
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 
 #pragma once
 
@@ -10,9 +12,9 @@
 #include <string>
 #include <unordered_map>
 
-#include "JSBigString.h"
-#include "JSModulesUnbundle.h"
-#include <Folly/dynamic.h>
+#include <cxxreact/JSBigString.h>
+#include <cxxreact/JSModulesUnbundle.h>
+#include <folly/dynamic.h>
 
 namespace facebook {
 namespace react {

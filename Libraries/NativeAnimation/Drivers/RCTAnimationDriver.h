@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -8,7 +8,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <Foundation/Foundation.h>
 
-#import "RCTBridgeModule.h"
+#import <React/RCTBridgeModule.h>
 
 static CGFloat RCTSingleFrameInterval = (CGFloat)(1.0 / 60.0);
 

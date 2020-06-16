@@ -1,7 +1,9 @@
-// Copyright (c) Facebook, Inc. and its affiliates.
-
-// This source code is licensed under the MIT license found in the
-// LICENSE file in the root directory of this source tree.
+/*
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 
 #pragma once
 
@@ -106,4 +108,4 @@ inline std::string jsArgAsString(const folly::dynamic& args, size_t n) {
 
 }}
 
-#include "JsArgumentHelpers-inl.h"
+#include <cxxreact/JsArgumentHelpers-inl.h>

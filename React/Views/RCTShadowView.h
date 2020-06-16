@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,9 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "RCTComponent.h"
-#import "RCTLayout.h"
-#import "RCTRootView.h"
+#import <React/RCTComponent.h>
+#import <React/RCTLayout.h>
+#import <React/RCTRootView.h>
 #import <yoga/Yoga.h>
 
 @class RCTRootShadowView;

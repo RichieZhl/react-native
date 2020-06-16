@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,9 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import "RCTBridgeMethod.h"
-#import "RCTBridgeModule.h"
-#import "RCTNullability.h"
+#import <React/RCTBridgeMethod.h>
+#import <React/RCTBridgeModule.h>
+#import <React/RCTNullability.h>
 
 @class RCTBridge;
 

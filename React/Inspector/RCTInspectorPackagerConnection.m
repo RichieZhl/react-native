@@ -1,17 +1,19 @@
-// Copyright (c) Facebook, Inc. and its affiliates.
-//
-// This source code is licensed under the MIT license found in the
-// LICENSE file in the root directory of this source tree.
+/*
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 
-#import "RCTInspectorPackagerConnection.h"
+#import <React/RCTInspectorPackagerConnection.h>
 
-#if RCT_DEV && !TARGET_OS_UIKITFORMAC
+#if RCT_DEV
 
-#import "RCTDefines.h"
-#import "RCTInspector.h"
-#import "RCTLog.h"
-#import "RCTSRWebSocket.h"
-#import "RCTUtils.h"
+#import <React/RCTDefines.h>
+#import <React/RCTInspector.h>
+#import <React/RCTLog.h>
+#import <React/RCTSRWebSocket.h>
+#import <React/RCTUtils.h>
 
 // This is a port of the Android impl, at
 // ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java
@@ -239,6 +241,11 @@ RCT_NOT_IMPLEMENTED(- (instancetype)init)
   }
 }
 
+- (bool)isConnected
+{
+  return _webSocket != nil;
+}
+
 - (void)connect
 {
   if (_closed) {
@@ -287,7 +294,7 @@ RCT_NOT_IMPLEMENTED(- (instancetype)init)
 - (void)sendToPackager:(NSDictionary *)messageObject
 {
   __weak RCTInspectorPackagerConnection *weakSelf = self;
-  dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+  dispatch_async(_jsQueue, ^{
     RCTInspectorPackagerConnection *strongSelf = weakSelf;
     if (strongSelf && !strongSelf->_closed) {
       NSError *error;

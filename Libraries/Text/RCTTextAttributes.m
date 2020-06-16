@@ -1,15 +1,15 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTTextAttributes.h"
+#import <React/RCTTextAttributes.h>
 
-#import "RCTAssert.h"
-#import "RCTFont.h"
-#import "RCTLog.h"
+#import <React/RCTAssert.h>
+#import <React/RCTFont.h>
+#import <React/RCTLog.h>
 
 NSString *const RCTTextAttributesIsHighlightedAttributeName = @"RCTTextAttributesIsHighlightedAttributeName";
 NSString *const RCTTextAttributesTagAttributeName = @"RCTTextAttributesTagAttributeName";

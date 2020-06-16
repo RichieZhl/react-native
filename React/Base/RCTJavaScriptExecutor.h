@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,8 +7,8 @@
 
 #import <objc/runtime.h>
 
-#import "RCTBridgeModule.h"
-#import "RCTInvalidating.h"
+#import <React/RCTBridgeModule.h>
+#import <React/RCTInvalidating.h>
 
 typedef void (^RCTJavaScriptCompleteBlock)(NSError *error);
 typedef void (^RCTJavaScriptCallback)(id result, NSError *error);

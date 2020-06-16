@@ -1,19 +1,19 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTPropsAnimatedNode.h"
+#import <React/RCTPropsAnimatedNode.h>
 
-#import "RCTLog.h"
-#import "RCTSurfacePresenterStub.h"
-#import "RCTUIManager.h"
+#import <React/RCTLog.h>
+#import <React/RCTSurfacePresenterStub.h>
+#import <React/RCTUIManager.h>
 
-#import "RCTAnimationUtils.h"
-#import "RCTStyleAnimatedNode.h"
-#import "RCTValueAnimatedNode.h"
+#import <React/RCTAnimationUtils.h>
+#import <React/RCTStyleAnimatedNode.h>
+#import <React/RCTValueAnimatedNode.h>
 
 
 
@@ -28,7 +28,7 @@
 }
 
 - (instancetype)initWithTag:(NSNumber *)tag
-                     config:(NSDictionary<NSString *, id> *)config;
+                     config:(NSDictionary<NSString *, id> *)config
 {
   if (self = [super initWithTag:tag config:config]) {
     _propsDictionary = [NSMutableDictionary new];

@@ -1,19 +1,19 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTTextShadowView.h"
+#import <React/RCTTextShadowView.h>
 
-#import "RCTBridge.h"
-#import "RCTShadowView+Layout.h"
-#import "RCTUIManager.h"
+#import <React/RCTBridge.h>
+#import <React/RCTShadowView+Layout.h>
+#import <React/RCTUIManager.h>
 #import <yoga/Yoga.h>
 
 #import "NSTextStorage+FontScaling.h"
-#import "RCTTextView.h"
+#import <React/RCTTextView.h>
 
 @implementation RCTTextShadowView
 {
@@ -177,6 +177,12 @@
 
 - (NSAttributedString *)attributedTextWithMeasuredAttachmentsThatFitSize:(CGSize)size
 {
+  static UIImage *placeholderImage;
+  static dispatch_once_t onceToken;
+   dispatch_once(&onceToken, ^{
+     placeholderImage = [UIImage new];
+   });
+  
   NSMutableAttributedString *attributedText =
     [[NSMutableAttributedString alloc] initWithAttributedString:[self attributedTextWithBaseTextAttributes:nil]];
 
@@ -195,6 +201,7 @@
                                                    maximumSize:size];
       NSTextAttachment *attachment = [NSTextAttachment new];
       attachment.bounds = (CGRect){CGPointZero, fittingSize};
+      attachment.image = placeholderImage;
       [attributedText addAttribute:NSAttachmentAttributeName value:attachment range:range];
     }
   ];

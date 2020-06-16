@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,8 +7,8 @@
 
 #import "RCTScrollContentView.h"
 
-#import "RCTAssert.h"
-#import "UIView+React.h"
+#import <React/RCTAssert.h>
+#import <React/UIView+React.h>
 
 #import "RCTScrollView.h"
 

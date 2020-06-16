@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -6,7 +6,7 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "RCTComponent.h"
+#import <React/RCTComponent.h>
 
 /**
  * Contains any methods related to scrolling. Any `RCTView` that has scrolling

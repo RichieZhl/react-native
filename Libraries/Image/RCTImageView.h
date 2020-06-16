@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -6,8 +6,8 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "RCTView.h"
-#import "RCTResizeMode.h"
+#import <React/RCTView.h>
+#import <React/RCTResizeMode.h>
 
 @class RCTBridge;
 @class RCTImageSource;

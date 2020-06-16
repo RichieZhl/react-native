@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -8,7 +8,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <Foundation/Foundation.h>
 
-#import "RCTDefines.h"
+#import <React/RCTDefines.h>
 
 static NSString *const EXTRAPOLATE_TYPE_IDENTITY = @"identity";
 static NSString *const EXTRAPOLATE_TYPE_CLAMP = @"clamp";

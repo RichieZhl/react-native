@@ -1,13 +1,13 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTInputAccessoryShadowView.h"
+#import <React/RCTInputAccessoryShadowView.h>
 
-#import "RCTUtils.h"
+#import <React/RCTUtils.h>
 
 @implementation RCTInputAccessoryShadowView
 

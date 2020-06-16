@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -9,8 +9,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "RCTJavaScriptExecutor.h"
-#import "MessageQueueThread.h"
+#import <React/RCTJavaScriptExecutor.h>
+#import <cxxreact/MessageQueueThread.h>
 
 namespace facebook {
 namespace react {

@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -10,8 +10,8 @@
 #include <condition_variable>
 #include <mutex>
 
-#import "RCTCxxUtils.h"
-#import "RCTUtils.h"
+#import <React/RCTCxxUtils.h>
+#import <React/RCTUtils.h>
 
 // A note about the implementation: This class is not used
 // generically.  It's a thin wrapper around a run loop which

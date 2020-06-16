@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,8 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "RCTSurfaceStage.h"
-#import "RCTSurfaceView.h"
+#import <React/RCTSurfaceStage.h>
+#import <React/RCTSurfaceView.h>
 
 @class RCTSurfaceRootView;
 

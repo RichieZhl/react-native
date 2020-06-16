@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,9 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "RCTSurfaceDelegate.h"
-#import "RCTSurfaceSizeMeasureMode.h"
-#import "RCTSurfaceStage.h"
+#import <React/RCTSurfaceDelegate.h>
+#import <React/RCTSurfaceSizeMeasureMode.h>
+#import <React/RCTSurfaceStage.h>
 
 @class RCTBridge;
 @class RCTSurface;

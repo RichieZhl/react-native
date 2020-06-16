@@ -1,11 +1,11 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "UIView+React.h"
+#import <React/UIView+React.h>
 
 /**
  * ART nodes are implemented as empty UIViews but this is just an implementation detail to fit

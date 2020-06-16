@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,7 +7,7 @@
 
 #import "RCTTypedModuleConstants.h"
 
-#import "RCTDefines.h"
+#import <React/RCTDefines.h>
 
 @implementation _RCTTypedModuleConstants {
   NSDictionary *_dictionary;

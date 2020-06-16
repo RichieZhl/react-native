@@ -1,17 +1,17 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTBridgeModule.h"
-#import "RCTEventDispatcher.h"
-#import "RCTEventEmitter.h"
-#import "RCTSurfacePresenterStub.h"
-#import "RCTUIManager.h"
-#import "RCTUIManagerObserverCoordinator.h"
-#import "RCTUIManagerUtils.h"
+#import <React/RCTBridgeModule.h>
+#import <React/RCTEventDispatcher.h>
+#import <React/RCTEventEmitter.h>
+#import <React/RCTSurfacePresenterStub.h>
+#import <React/RCTUIManager.h>
+#import <React/RCTUIManagerObserverCoordinator.h>
+#import <React/RCTUIManagerUtils.h>
 
 #import "RCTValueAnimatedNode.h"
 

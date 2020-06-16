@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,10 +7,10 @@
 
 #import <UIKit/UIKit.h>
 
-#import "RCTBridge.h"
-#import "RCTResizeMode.h"
-#import "RCTURLRequestHandler.h"
-#import "RCTImageURLLoader.h"
+#import <React/RCTBridge.h>
+#import <React/RCTResizeMode.h>
+#import <React/RCTURLRequestHandler.h>
+#import <React/RCTImageURLLoader.h>
 
 /**
  * Provides the interface needed to register an image decoder. Image decoders

@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "RCTDefines.h"
+#import <React/RCTDefines.h>
 
 RCT_EXTERN NSString* const RCTVersionMajor;
 RCT_EXTERN NSString* const RCTVersionMinor;

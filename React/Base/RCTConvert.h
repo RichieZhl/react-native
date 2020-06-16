@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -8,12 +8,12 @@
 #import <QuartzCore/QuartzCore.h>
 #import <UIKit/UIKit.h>
 
-#import "RCTAnimationType.h"
-#import "RCTBorderStyle.h"
-#import "RCTDefines.h"
-#import "RCTLog.h"
-#import "RCTPointerEvents.h"
-#import "RCTTextDecorationLineType.h"
+#import <React/RCTAnimationType.h>
+#import <React/RCTBorderStyle.h>
+#import <React/RCTDefines.h>
+#import <React/RCTLog.h>
+#import <React/RCTPointerEvents.h>
+#import <React/RCTTextDecorationLineType.h>
 #import <yoga/Yoga.h>
 #if TARGET_OS_IPHONE && WEBKIT_IOS_10_APIS_AVAILABLE
 #import <WebKit/WebKit.h>

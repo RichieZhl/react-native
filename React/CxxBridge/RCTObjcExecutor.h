@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -8,9 +8,9 @@
 #include <functional>
 #include <memory>
 
-#import "RCTDefines.h"
-#import "RCTJavaScriptExecutor.h"
-#import "JSExecutor.h"
+#import <React/RCTDefines.h>
+#import <React/RCTJavaScriptExecutor.h>
+#import <cxxreact/JSExecutor.h>
 
 namespace facebook {
 namespace react {

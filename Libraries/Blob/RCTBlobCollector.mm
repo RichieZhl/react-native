@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,8 +7,8 @@
 
 #import "RCTBlobCollector.h"
 
-#import "RCTBridge+Private.h"
-#import "RCTBlobManager.h"
+#import <React/RCTBridge+Private.h>
+#import <React/RCTBlobManager.h>
 
 namespace facebook {
 namespace react {

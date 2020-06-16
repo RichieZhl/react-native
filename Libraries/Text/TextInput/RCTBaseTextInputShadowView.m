@@ -1,19 +1,19 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTBaseTextInputShadowView.h"
+#import <React/RCTBaseTextInputShadowView.h>
 
-#import "RCTBridge.h"
-#import "RCTShadowView+Layout.h"
-#import "RCTUIManager.h"
+#import <React/RCTBridge.h>
+#import <React/RCTShadowView+Layout.h>
+#import <React/RCTUIManager.h>
 #import <yoga/Yoga.h>
 
 #import "NSTextStorage+FontScaling.h"
-#import "RCTBaseTextInputView.h"
+#import <React/RCTBaseTextInputView.h>
 
 @implementation RCTBaseTextInputShadowView
 {
@@ -45,6 +45,16 @@
 - (BOOL)isYogaLeafNode
 {
   return YES;
+}
+
+- (void)didSetProps:(NSArray<NSString *> *)changedProps
+{
+  [super didSetProps:changedProps];
+
+  // `backgroundColor` and `opacity` are being applied directly to a UIView,
+  // therefore we need to exclude them from base `textAttributes`.
+  self.textAttributes.backgroundColor = nil;
+  self.textAttributes.opacity = NAN;
 }
 
 - (void)layoutSubviewsWithContext:(RCTLayoutContext)layoutContext

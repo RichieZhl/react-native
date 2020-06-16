@@ -1,15 +1,15 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTPackagerClient.h"
+#import <React/RCTPackagerClient.h>
 
-#import "RCTLog.h"
-#import "RCTReconnectingWebSocket.h"
-#import "RCTUtils.h"
+#import <React/RCTLog.h>
+#import <React/RCTReconnectingWebSocket.h>
+#import <React/RCTUtils.h>
 
 #if RCT_DEV // Only supported in dev mode
 

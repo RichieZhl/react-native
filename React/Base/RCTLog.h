@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,9 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import "RCTAssert.h"
-#import "RCTDefines.h"
-#import "RCTUtils.h"
+#import <React/RCTAssert.h>
+#import <React/RCTDefines.h>
+#import <React/RCTUtils.h>
 
 #ifndef RCTLOG_ENABLED
 #define RCTLOG_ENABLED 1
@@ -77,6 +77,16 @@ RCT_EXTERN NSString *RCTFormatLog(
   NSNumber *lineNumber,
   NSString *message
 );
+
+/**
+ * A method to generate a string RCTLogLevel
+ */
+RCT_EXTERN NSString *RCTFormatLogLevel(RCTLogLevel);
+
+/**
+ * A method to generate a string from a RCTLogSource
+ */
+RCT_EXTERN NSString *RCTFormatLogSource(RCTLogSource);
 
 /**
  * The default logging function used by RCTLogXX.

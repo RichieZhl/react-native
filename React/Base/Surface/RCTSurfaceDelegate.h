@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "RCTSurfaceStage.h"
+#import <React/RCTSurfaceStage.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

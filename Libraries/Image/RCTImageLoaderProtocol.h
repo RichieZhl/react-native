@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,12 +7,12 @@
 
 #import <UIKit/UIKit.h>
 
-#import "RCTBridge.h"
-#import "RCTResizeMode.h"
-#import "RCTURLRequestHandler.h"
-#import "RCTImageDataDecoder.h"
-#import "RCTImageURLLoader.h"
-#import "RCTImageCache.h"
+#import <React/RCTBridge.h>
+#import <React/RCTResizeMode.h>
+#import <React/RCTURLRequestHandler.h>
+#import <React/RCTImageDataDecoder.h>
+#import <React/RCTImageURLLoader.h>
+#import <React/RCTImageCache.h>
 
 /**
  * If available, RCTImageRedirectProtocol is invoked before loading an asset.
@@ -113,4 +113,5 @@
  * protocol. This method should be called in bridgeDidInitializeModule.
  */
 - (void)setImageCache:(id<RCTImageCache>)cache;
+
 @end

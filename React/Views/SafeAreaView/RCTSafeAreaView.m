@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,8 +7,8 @@
 
 #import "RCTSafeAreaView.h"
 
-#import "RCTBridge.h"
-#import "RCTUIManager.h"
+#import <React/RCTBridge.h>
+#import <React/RCTUIManager.h>
 
 #import "RCTSafeAreaViewLocalData.h"
 

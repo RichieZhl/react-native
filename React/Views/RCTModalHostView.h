@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,9 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "RCTInvalidating.h"
-#import "RCTModalHostViewManager.h"
-#import "RCTView.h"
+#import <React/RCTInvalidating.h>
+#import <React/RCTModalHostViewManager.h>
+#import <React/RCTView.h>
 
 @class RCTBridge;
 @class RCTModalHostViewController;

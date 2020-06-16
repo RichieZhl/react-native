@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "RCTConvert.h"
+#import <React/RCTConvert.h>
 
 typedef UIFont *(^RCTFontHandler)(CGFloat fontSize, NSString *fontWeightDescription);
 

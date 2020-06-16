@@ -1,18 +1,18 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-#import "RCTTextView.h"
+#import <React/RCTTextView.h>
 
 #import <MobileCoreServices/UTCoreTypes.h>
 
-#import "RCTUtils.h"
-#import "UIView+React.h"
+#import <React/RCTUtils.h>
+#import <React/UIView+React.h>
 
-#import "RCTTextShadowView.h"
+#import <React/RCTTextShadowView.h>
 
 @implementation RCTTextView
 {
