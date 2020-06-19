@@ -26,7 +26,7 @@
 #import <React/RCTUIManager.h>
 #import <React/RCTBridge+Private.h>
 #import <React/RCTUtils.h>
-#import <ReactCommon/RCTTurboModule.h>
+#import "RCTTurboModule.h"
 
 #if __has_include(<React/RCTDevMenu.h>)
 #import <React/RCTDevMenu.h>
