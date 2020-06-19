@@ -12,7 +12,7 @@
 
 #include <jsi/jsi.h>
 
-#include <ReactCommon/CallInvoker.h>
+#include "CallInvoker.h"
 
 namespace facebook {
 namespace react {

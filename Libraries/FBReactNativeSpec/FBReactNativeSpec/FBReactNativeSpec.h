@@ -16,12 +16,12 @@
 #endif
 #import <Foundation/Foundation.h>
 #import <RCTRequired/RCTRequired.h>
-#import <RCTTypeSafety/RCTConvertHelpers.h>
-#import <RCTTypeSafety/RCTTypedModuleConstants.h>
+#import "RCTConvertHelpers.h"
+#import "RCTTypedModuleConstants.h"
 #import <React/RCTBridgeModule.h>
 #import <React/RCTCxxConvert.h>
 #import <React/RCTManagedPointer.h>
-#import <ReactCommon/RCTTurboModule.h>
+#import "RCTTurboModule.h"
 #import <folly/Optional.h>
 #import <vector>
 
@@ -2852,7 +2852,7 @@ namespace facebook {
   } // namespace react
 } // namespace facebook
 
-#import <RCTTypeSafety/RCTConvertHelpers.h>
+#import "RCTConvertHelpers.h"
 
 
 inline folly::Optional<double> JS::NativeAccessibilityManager::SpecSetAccessibilityContentSizeMultipliersJSMultipliers::extraSmall() const

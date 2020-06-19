@@ -17,9 +17,9 @@
 #import <React/RCTLog.h>
 #import <React/RCTModuleData.h>
 #import <React/RCTPerformanceLogger.h>
-#import <ReactCommon/BridgeJSCallInvoker.h>
-#import <ReactCommon/TurboCxxModule.h>
-#import <ReactCommon/TurboModuleBinding.h>
+#import "BridgeJSCallInvoker.h"
+#import "TurboCxxModule.h"
+#import "TurboModuleBinding.h"
 
 using namespace facebook;
 
