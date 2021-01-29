@@ -6,7 +6,7 @@
  */
 
 #import <React/RCTDataRequestHandler.h>
-#import "RCTTurboModule.h"
+#import <ReactCommon/RCTTurboModule.h>
 
 #import "RCTNetworkPlugins.h"
 

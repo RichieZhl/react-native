@@ -11,7 +11,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import <React/RCTAnimatedImage.h>
 #import <React/RCTUtils.h>
-#import "RCTTurboModule.h"
+#import <ReactCommon/RCTTurboModule.h>
 
 #import "RCTImagePlugins.h"
 
