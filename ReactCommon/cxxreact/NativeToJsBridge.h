@@ -12,7 +12,7 @@
 #include <map>
 #include <vector>
 
-#include <ReactCommon/CallInvoker.h>
+#include "CallInvoker.h"
 #include <cxxreact/JSExecutor.h>
 
 namespace folly {

@@ -9,7 +9,7 @@
 #import <React/RCTNativeAnimatedModule.h>
 #import <React/RCTNativeAnimatedNodesManager.h>
 
-#import <RCTTypeSafety/RCTConvertHelpers.h>
+#import "RCTConvertHelpers.h"
 
 #import "RCTAnimationPlugins.h"
 

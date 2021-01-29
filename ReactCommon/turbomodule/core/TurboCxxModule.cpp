@@ -9,7 +9,7 @@
 
 #include <vector>
 
-#include <ReactCommon/TurboModuleUtils.h>
+#include "TurboModuleUtils.h"
 #include <jsi/JSIDynamic.h>
 
 using namespace facebook;

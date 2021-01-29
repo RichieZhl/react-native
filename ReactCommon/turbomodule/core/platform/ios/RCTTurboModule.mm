@@ -18,10 +18,10 @@
 #import <React/RCTManagedPointer.h>
 #import <React/RCTModuleMethod.h>
 #import <React/RCTUtils.h>
-#import <ReactCommon/CallInvoker.h>
-#import <ReactCommon/LongLivedObject.h>
-#import <ReactCommon/TurboModule.h>
-#import <ReactCommon/TurboModuleUtils.h>
+#import "CallInvoker.h"
+#import "LongLivedObject.h"
+#import "TurboModule.h"
+#import "TurboModuleUtils.h"
 
 using namespace facebook;
 

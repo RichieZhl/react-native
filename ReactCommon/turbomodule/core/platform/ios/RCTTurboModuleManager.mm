@@ -20,8 +20,8 @@
 #import <React/RCTModuleData.h>
 #import <React/RCTPerformanceLogger.h>
 #import <React/RCTUtils.h>
-#import <ReactCommon/TurboCxxModule.h>
-#import <ReactCommon/TurboModuleBinding.h>
+#import "TurboCxxModule.h"
+#import "TurboModuleBinding.h"
 
 using namespace facebook;
 

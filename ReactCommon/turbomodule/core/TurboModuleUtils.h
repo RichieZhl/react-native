@@ -13,8 +13,8 @@
 #include <folly/Optional.h>
 #include <jsi/jsi.h>
 
-#include <ReactCommon/CallInvoker.h>
-#include <ReactCommon/LongLivedObject.h>
+#include "CallInvoker.h"
+#include "LongLivedObject.h"
 
 using namespace facebook;
 

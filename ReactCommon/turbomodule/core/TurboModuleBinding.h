@@ -9,7 +9,7 @@
 
 #include <string>
 
-#include <ReactCommon/TurboModule.h>
+#include "TurboModule.h"
 #include <jsi/jsi.h>
 
 namespace facebook {

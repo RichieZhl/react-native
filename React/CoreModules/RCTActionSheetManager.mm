@@ -14,7 +14,7 @@
 #import <React/RCTUtils.h>
 
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
-#import <RCTTypeSafety/RCTConvertHelpers.h>
+#import "RCTConvertHelpers.h"
 
 #import "CoreModulesPlugins.h"
 
