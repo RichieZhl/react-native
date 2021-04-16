@@ -7,12 +7,12 @@
 
 #include "NativeToJsBridge.h"
 
-#include <ReactCommon/CallInvoker.h>
+#include <CallInvoker.h>
 #include <folly/MoveWrapper.h>
 #include <folly/json.h>
 #include <glog/logging.h>
 #include <jsi/jsi.h>
-#include <reactperflogger/BridgeNativeModulePerfLogger.h>
+#include <BridgeNativeModulePerfLogger.h>
 
 #include "ErrorUtils.h"
 #include "Instance.h"

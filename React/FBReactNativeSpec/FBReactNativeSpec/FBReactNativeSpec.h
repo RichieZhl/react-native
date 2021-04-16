@@ -15,13 +15,13 @@
 #error This file must be compiled as Obj-C++. If you are importing it, you must change your file extension to .mm.
 #endif
 #import <Foundation/Foundation.h>
-#import <RCTRequired/RCTRequired.h>
-#import <RCTTypeSafety/RCTConvertHelpers.h>
-#import <RCTTypeSafety/RCTTypedModuleConstants.h>
+#import <RCTRequired.h>
+#import <RCTConvertHelpers.h>
+#import <RCTTypedModuleConstants.h>
 #import <React/RCTBridgeModule.h>
 #import <React/RCTCxxConvert.h>
 #import <React/RCTManagedPointer.h>
-#import <ReactCommon/RCTTurboModule.h>
+#import <RCTTurboModule.h>
 #import <folly/Optional.h>
 #import <vector>
 

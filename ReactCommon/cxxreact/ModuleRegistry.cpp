@@ -8,7 +8,7 @@
 #include "ModuleRegistry.h"
 
 #include <glog/logging.h>
-#include <reactperflogger/BridgeNativeModulePerfLogger.h>
+#include <BridgeNativeModulePerfLogger.h>
 
 #include "NativeModule.h"
 #include "SystraceSection.h"

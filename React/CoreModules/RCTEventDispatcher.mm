@@ -13,7 +13,7 @@
 #import <React/RCTComponentEvent.h>
 #import <React/RCTProfile.h>
 #import <React/RCTUtils.h>
-#import <ReactCommon/RCTTurboModule.h>
+#import <RCTTurboModule.h>
 
 #import "CoreModulesPlugins.h"
 

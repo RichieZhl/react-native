@@ -6,7 +6,7 @@
  */
 
 #import <FBReactNativeSpec/FBReactNativeSpec.h>
-#import <RCTTypeSafety/RCTConvertHelpers.h>
+#import <RCTConvertHelpers.h>
 #import <React/RCTNativeAnimatedTurboModule.h>
 #import <React/RCTNativeAnimatedNodesManager.h>
 

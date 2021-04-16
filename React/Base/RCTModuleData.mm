@@ -11,7 +11,7 @@
 #import <atomic>
 #import <mutex>
 
-#import <reactperflogger/BridgeNativeModulePerfLogger.h>
+#import <BridgeNativeModulePerfLogger.h>
 
 #import "RCTBridge+Private.h"
 #import "RCTBridge.h"

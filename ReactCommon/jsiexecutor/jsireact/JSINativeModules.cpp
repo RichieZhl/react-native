@@ -5,8 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#include "jsireact/JSINativeModules.h"
-#include <reactperflogger/BridgeNativeModulePerfLogger.h>
+#include "JSINativeModules.h"
+#include <BridgeNativeModulePerfLogger.h>
 
 #include <glog/logging.h>
 

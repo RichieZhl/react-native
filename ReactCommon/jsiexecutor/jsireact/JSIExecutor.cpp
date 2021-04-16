@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#include "jsireact/JSIExecutor.h"
+#include "JSIExecutor.h"
 
 #include <cxxreact/JSBigString.h>
 #include <cxxreact/ModuleRegistry.h>
@@ -16,7 +16,7 @@
 #include <glog/logging.h>
 #include <jsi/JSIDynamic.h>
 #include <jsi/instrumentation.h>
-#include <reactperflogger/BridgeNativeModulePerfLogger.h>
+#include <BridgeNativeModulePerfLogger.h>
 
 #include <sstream>
 #include <stdexcept>

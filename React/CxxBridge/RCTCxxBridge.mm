@@ -34,8 +34,8 @@
 #import <cxxreact/ModuleRegistry.h>
 #import <cxxreact/RAMBundleRegistry.h>
 #import <cxxreact/ReactMarker.h>
-#import <jsireact/JSIExecutor.h>
-#import <reactperflogger/BridgeNativeModulePerfLogger.h>
+#import <JSIExecutor.h>
+#import <BridgeNativeModulePerfLogger.h>
 
 #if __has_include(<hermes/hermes.h>)
 #define RCT_USE_HERMES 1

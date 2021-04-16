@@ -15,7 +15,7 @@
 #import <React/RCTSRWebSocket.h>
 #import <React/RCTUtils.h>
 
-#import <ReactCommon/RCTTurboModule.h>
+#import <RCTTurboModule.h>
 
 #import "CoreModulesPlugins.h"
 

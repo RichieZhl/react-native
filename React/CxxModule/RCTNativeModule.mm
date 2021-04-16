@@ -15,7 +15,7 @@
 #import <React/RCTLog.h>
 #import <React/RCTProfile.h>
 #import <React/RCTUtils.h>
-#import <reactperflogger/BridgeNativeModulePerfLogger.h>
+#import <BridgeNativeModulePerfLogger.h>
 
 #ifdef WITH_FBSYSTRACE
 #include <fbsystrace.h>

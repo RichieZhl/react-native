@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include <reactperflogger/NativeModulePerfLogger.h>
+#include <NativeModulePerfLogger.h>
 #include <memory>
 
 namespace facebook {

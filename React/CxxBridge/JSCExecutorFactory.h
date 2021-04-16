@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include <jsireact/JSIExecutor.h>
+#include <JSIExecutor.h>
 
 namespace facebook {
 namespace react {

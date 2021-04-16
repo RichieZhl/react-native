@@ -12,7 +12,7 @@
 #include <memory>
 #include <mutex>
 
-#include <ReactCommon/RuntimeExecutor.h>
+#include <RuntimeExecutor.h>
 #include <cxxreact/NativeToJsBridge.h>
 
 #ifndef RN_EXPORT

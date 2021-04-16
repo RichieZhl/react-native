@@ -7,7 +7,7 @@
 
 #include "SampleTurboCxxModule.h"
 
-#include <ReactCommon/TurboModuleUtils.h>
+#include <TurboModuleUtils.h>
 
 using namespace facebook;
 

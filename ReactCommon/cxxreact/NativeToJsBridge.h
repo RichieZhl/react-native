@@ -12,8 +12,8 @@
 #include <map>
 #include <vector>
 
-#include <ReactCommon/CallInvoker.h>
-#include <ReactCommon/RuntimeExecutor.h>
+#include <CallInvoker.h>
+#include <RuntimeExecutor.h>
 #include <cxxreact/JSExecutor.h>
 
 namespace folly {
