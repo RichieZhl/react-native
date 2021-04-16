@@ -11,7 +11,7 @@
 #import <functional>
 #import <iterator>
 
-#import "FBLazyIterator.h"
+#import <FBLazyVector/FBLazyIterator.h>
 
 namespace FB {
 

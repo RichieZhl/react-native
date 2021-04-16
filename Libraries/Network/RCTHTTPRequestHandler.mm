@@ -10,7 +10,7 @@
 #import <mutex>
 
 #import <React/RCTNetworking.h>
-#import "RCTTurboModule.h"
+#import <ReactCommon/RCTTurboModule.h>
 
 #import "RCTNetworkPlugins.h"
 
