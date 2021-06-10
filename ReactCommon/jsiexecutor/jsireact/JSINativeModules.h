@@ -12,7 +12,7 @@
 
 #include <cxxreact/ModuleRegistry.h>
 #include <folly/Optional.h>
-#include <jsi/jsi.h>
+#include <jsi.h>
 
 namespace facebook {
 namespace react {

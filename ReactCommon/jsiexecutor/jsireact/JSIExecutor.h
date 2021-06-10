@@ -12,7 +12,7 @@
 #include <cxxreact/JSBigString.h>
 #include <cxxreact/JSExecutor.h>
 #include <cxxreact/RAMBundleRegistry.h>
-#include <jsi/jsi.h>
+#include <jsi.h>
 #include <functional>
 #include <mutex>
 
