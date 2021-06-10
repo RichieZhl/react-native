@@ -22,10 +22,10 @@
 #import <React/RCTModuleData.h>
 #import <React/RCTPerformanceLogger.h>
 #import <React/RCTUtils.h>
-#import <RuntimeExecutor.h>
-#import <TurboCxxModule.h>
-#import <TurboModuleBinding.h>
-#import <TurboModulePerfLogger.h>
+#import <ReactCommon/RuntimeExecutor.h>
+#import <ReactCommon/TurboCxxModule.h>
+#import <ReactCommon/TurboModuleBinding.h>
+#import <ReactCommon/TurboModulePerfLogger.h>
 
 using namespace facebook::react;
 

@@ -14,9 +14,9 @@
 #import <React/RCTBridge.h>
 #import <React/RCTBridgeModule.h>
 #import <React/RCTModuleMethod.h>
-#import <CallInvoker.h>
-#import <TurboModule.h>
-#import <TurboModuleUtils.h>
+#import <ReactCommon/CallInvoker.h>
+#import <ReactCommon/TurboModule.h>
+#import <ReactCommon/TurboModuleUtils.h>
 #import <string>
 #import <unordered_map>
 

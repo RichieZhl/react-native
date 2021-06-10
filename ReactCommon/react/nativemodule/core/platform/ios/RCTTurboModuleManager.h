@@ -11,7 +11,7 @@
 
 #import "RCTTurboModule.h"
 
-#import <RuntimeExecutor.h>
+#import <ReactCommon/RuntimeExecutor.h>
 
 @protocol RCTTurboModuleManagerDelegate <NSObject>
 

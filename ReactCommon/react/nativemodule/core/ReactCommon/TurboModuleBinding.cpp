@@ -10,7 +10,7 @@
 #include <stdexcept>
 #include <string>
 
-#include <LongLivedObject.h>
+#include <ReactCommon/LongLivedObject.h>
 #include <cxxreact/SystraceSection.h>
 
 using namespace facebook;

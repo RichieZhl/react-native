@@ -10,7 +10,7 @@
 #import <MobileCoreServices/MobileCoreServices.h>
 
 #import <React/RCTUtils.h>
-#import <RCTTurboModule.h>
+#import <ReactCommon/RCTTurboModule.h>
 
 #import "RCTNetworkPlugins.h"
 

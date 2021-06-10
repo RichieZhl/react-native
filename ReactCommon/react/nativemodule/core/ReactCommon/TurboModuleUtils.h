@@ -12,8 +12,8 @@
 
 #include <jsi/jsi.h>
 
-#include <CallInvoker.h>
-#include <LongLivedObject.h>
+#include <ReactCommon/CallInvoker.h>
+#include <ReactCommon/LongLivedObject.h>
 
 using namespace facebook;
 
