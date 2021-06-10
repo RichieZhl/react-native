@@ -9,8 +9,8 @@
 
 #include <string>
 
-#include <ReactCommon/TurboModule.h>
-#include <jsi/jsi.h>
+#include <TurboModule.h>
+#include <jsi.h>
 
 namespace facebook {
 namespace react {
