@@ -10,7 +10,7 @@
 #include <mutex>
 #include <thread>
 
-#include <jsi/jsi.h>
+#include <jsi.h>
 
 namespace facebook {
 namespace react {
