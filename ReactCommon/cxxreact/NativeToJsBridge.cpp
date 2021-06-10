@@ -11,7 +11,7 @@
 #include <folly/MoveWrapper.h>
 #include <folly/json.h>
 #include <glog/logging.h>
-#include <jsi/jsi.h>
+#include <jsi.h>
 #include <BridgeNativeModulePerfLogger.h>
 
 #include "ErrorUtils.h"

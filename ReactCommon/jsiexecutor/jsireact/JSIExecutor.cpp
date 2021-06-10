@@ -14,8 +14,8 @@
 #include <folly/Conv.h>
 #include <folly/json.h>
 #include <glog/logging.h>
-#include <jsi/JSIDynamic.h>
-#include <jsi/instrumentation.h>
+#include <JSIDynamic.h>
+#include <instrumentation.h>
 #include <BridgeNativeModulePerfLogger.h>
 
 #include <sstream>

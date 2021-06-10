@@ -12,7 +12,7 @@
 
 #include <cxxreact/ReactMarker.h>
 
-#include <jsi/JSIDynamic.h>
+#include <JSIDynamic.h>
 
 #include <string>
 
