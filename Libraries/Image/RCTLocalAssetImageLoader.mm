@@ -11,7 +11,7 @@
 #import <memory>
 
 #import <React/RCTUtils.h>
-#import <ReactCommon/RCTTurboModule.h>
+#import <RCTTurboModule.h>
 
 #import "RCTImagePlugins.h"
 

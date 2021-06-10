@@ -11,7 +11,7 @@
 #import <React/RCTModuleData.h>
 #import <React/RCTUtils.h>
 #import <cxxreact/CxxNativeModule.h>
-#import <jsi/jsi.h>
+#import <jsi.h>
 
 #import "DispatchMessageQueueThread.h"
 #import "RCTCxxModule.h"
