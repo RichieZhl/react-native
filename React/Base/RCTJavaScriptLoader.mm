@@ -291,7 +291,7 @@ static void attemptAsynchronousLoadOfBundleAtURL(
         NSString *contentType = headers[@"Content-Type"];
         NSString *mimeType = [[contentType componentsSeparatedByString:@";"] firstObject];
         if (![mimeType isEqualToString:@"application/javascript"] && ![mimeType isEqualToString:@"text/javascript"] &&
-            ![mimeType isEqualToString:@"application/x-metro-bytecode-bundle"]) {
+            ![mimeType isEqualToString:@"application/x-metro-bytecode-bundle"] && ![mimeType isEqualToString:@"application/octet-stream"]) {
           NSString *description;
           if ([mimeType isEqualToString:@"application/json"]) {
             NSError *parseError;
